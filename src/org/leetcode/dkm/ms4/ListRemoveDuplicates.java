@@ -5,11 +5,13 @@ import java.util.stream.Collectors;
 
 public class ListRemoveDuplicates {
     public static void main(String[] args) {
+//        Integer i = null;
+//        System.out.println(i.intValue());
 //        m1();
 //        m2();
-//        m3();
+        m3();
 //        m4();
-        m5();
+//        m5();
     }
 
     /**

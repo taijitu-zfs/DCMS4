@@ -1,5 +1,6 @@
 package org.leetcode.dkm.ms4;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,4 +17,6 @@ public class Person {
     public Person(String personName){
         this.personName = personName;
     }
+
+
 }
