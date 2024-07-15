@@ -5,15 +5,17 @@ import lombok.Getter;
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
-class SU7{
+class SU7 {
     //本门店总体销售总额
     @Getter
     private int saleTotal;
+
     public synchronized void saletotal() {
         saleTotal++;
     }
 
     ThreadLocal<Integer> salePersonal = ThreadLocal.withInitial(() -> 0);
+
     public void saletotal2() {
         salePersonal.set(salePersonal.get() + 1);
     }
